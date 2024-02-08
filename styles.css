@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Protest+Revolution&family=Protest+Riot&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("https://images.unsplash.com/photo-1592288801240-7b18bb06e94f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  object-fit: cover;
+}
+
+.menu {
+  width: 80%;
+  background-color: burlywood;
+
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+.bar-menu {
+  width: 80%;
+  background-color: #f2ad85;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Protest Riot", sans-serif;
+  text-transform: uppercase;
+}
+h2 {
+  text-align: center;
+  font-family: "Protest Revolution", sans-serif;
+  text-transform: uppercase;
+}
+p {
+  text-align: center;
+}
+.address {
+  font-style: italic;
+}
+
+.item p {
+  display: inline-block;
+  margin: 5px 0;
+  font-size: 12px;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+}
+.flavor {
+  width: 50%;
+  text-align: left;
+}
+.price {
+  width: 40%;
+  text-align: right;
+}
+
+hr {
+  height: 2px;
+  background-color: brown;
+  border-color: brown;
+}
+
+footer p {
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+}
